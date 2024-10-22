@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ASL SHOP | ICON</title>
+      <link rel="icon" href="ASL Shop.png" type="image/x-icon">
+      <style>
+        body {
+            font-family: Mojangles, Mojangles;
+        }
+
+        .menu {
+            display: block; /* Mantener el menú visible */
+            background-color: rgba(0, 0, 0, 0);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+      </style>
+  </head>
+  <body>
+    <img src="ASL Shop.png" alt="Logo">
+    
+    <div id="menu" class="menu">
+        <button onclick="window.location.href='https://asl-shop.github.io/01/inicio/'">REDIRIGIR</button>
+    </div>
+
+    <script>
+      function navigate(url) {
+          window.location.href = url; // Redirigir al usuario a la URL
+      }
+      // No necesitas añadir más lógica, ya que el menú se mantiene visible.
+    </script>
+  </body>
+</html>
