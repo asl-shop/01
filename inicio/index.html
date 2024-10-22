@@ -13,6 +13,14 @@
             background-color: #1a1a1a;
             color: #ffffff;
         }
+        .container-1:last-of-type a {
+            color: white;
+            text-decoration: none; /* Sin subrayado por defecto */
+        }
+        .container-1:last-of-type a:hover {
+             color: white;
+            text-decoration: underline; /* Subrayado al pasar el ratón */
+        }
         .section1 {
         background-image: url('ASL Shop.png');
         background-size: cover; /* Ajusta la imagen al tamaño de la sección */
@@ -128,9 +136,11 @@
         </main>
     </section>
     <footer>
-        <p>
-          <a href="https://programmer-hugo.github.io/about-me">Página Web hecha por Hugo Elias</a>
-        </p>
+        <div class="container-1">
+            <p>
+                <a href="https://programmer-hugo.github.io/about-me">Página Web hecha por Hugo Elias</a>
+            </p>
+        </div>
         <p>&copy; 2025 ASL SHOP. Todos los derechos reservados.</p>
     </footer>
 </body>
