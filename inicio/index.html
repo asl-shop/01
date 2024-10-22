@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL SHOP</title>
+    <link rel="icon" href="ASL Shop.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .section1 {
+        background-image: url('ASL Shop.png');
+        background-size: cover; /* Ajusta la imagen al tamaño de la sección */
+        background-repeat: no-repeat; /* Evita que se repita la imagen */
+        background-position: center; /* Centra la imagen */
+        height: 100vh; /* Ajusta la altura según lo necesites */
+        color: white; /* Cambia el color del texto si es necesario */
+        }
+        .container1 {
+            text-align: center;
+            margin: 20px;
+        }
+        .p1 {
+            color: white; /* Color del texto */
+            margin: 10px 0; /* Espacio entre los párrafos */
+        }
+        header {
+            padding: 1rem;
+            text-align: center;
+            background-color: #1e1e1e;
+        }
+        .logo {
+            max-width: 300px;
+            width: 100%;
+        }
+        nav {
+            background-color: #ff0000;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .product {
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ASL Shop.png" alt="Logo de ASL SHOP" class="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+        </ul>
+    </nav>
+    <section class="section1">
+        <main>
+            <section id="inicio">
+                <h1>Bienvenido a ASL SHOP</h1>
+                <p>Descubre nuestros últimos productos de estilo urbano y expresa tu personalidad única.</p>
+                <a href="#productos" class="cta-button">Comprar Ahora</a>
+            </section>
+        
+            <section id="productos">
+                <h2>Nuestros Productos</h2>
+                <div class="products">
+                <div class="container1">
+                  <p class="p1">
+                    <strong>
+                      PRÓXIMAMENTE
+                    </strong>
+                  </p>
+                </div>
+                </div>
+            </section>
+        </main>
+    </section>
+    <footer>
+        <p>
+          <a href="https://programmer-hugo.github.io/about-me">Página Web hecha por Hugo Elias</a>
+        </p>
+        <p>&copy; 2025 ASL SHOP. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
